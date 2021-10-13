@@ -344,6 +344,49 @@ section{
 .swiper-pagination-bullet-active{
     background: var(--yellow);
 }
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.services .box-container .box{
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+}
+
+.services .box-container .box i{
+    height: 5.9rem;
+    width: 5.9rem;
+    line-height: 5.9rem;
+    font-size: 2.5rem;
+    color: var(--black);
+    background: var(--yellow);
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.services .box-container .box h3{
+    color: var(--light-color);
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.services .box-container .box:hover{
+    background: var(--black);
+}
+
+.services .box-container .box:hover h3{
+    color: #fff;
+}
+
+.services .box-container .box:hover p{
+    color: #eee;
+}
 /*------ Responsividade -----*/
 @media(max-width:991px){
 
