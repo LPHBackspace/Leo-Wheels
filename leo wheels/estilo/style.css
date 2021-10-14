@@ -222,6 +222,7 @@ section{
 }
 .home span{
     color: rgb(0, 255, 200);
+    transition: .5s;
 }
 
 .home img{
@@ -263,11 +264,13 @@ section{
 .icons-container .icons .content h3{
     color: var(--yellow);
     font-size: 2.5rem;
+    cursor: default;
 }
 
 .icons-container .icons .content p{
     color: var(--light-color);
     font-size: 1.5rem;
+    cursor: default;
 }
 
 .icons-container .icons:hover{
@@ -405,6 +408,107 @@ section{
 .services .box-container .box:hover p{
     color: #eee;
 }
+
+
+.featured .featured-slider{
+    padding: 1rem;
+    padding-bottom: 4rem;
+}
+
+.featured .featured-slider .box{
+    text-align: center;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    border-radius: .5rem;
+    background-color: var(--black);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.featured .featured-slider .box:hover{
+    background-color: rgb(17, 17, 17);
+}
+
+.featured .featured-slider .box img{
+    width: 100%;
+    padding: 2rem;
+}
+
+.featured .featured-slider .box:hover img{
+    transform: scale(.9);
+
+}
+
+.featured .featured-slider .box h3{
+    font-size: 2.2rem;
+    color: #fff;
+}
+
+.featured .featured-slider .box .stars{
+    padding: 1rem 0;
+}
+
+.featured .featured-slider .box .stars i{
+    font-size: 1.7rem;
+    color: var(--yellow);
+}
+
+.featured .featured-slider .box .price{
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.newsletter{
+    padding: 6rem 2rem;
+    text-align: center;
+    background: url(../img/letter-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.newsletter h3{
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.newsletter p{
+    color: var(--light-color);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.newsletter form{
+    margin: 1rem auto;
+    max-width: 60rem;
+    height: 5rem;
+    display: flex;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+    border-radius: 5rem;
+}
+
+.newsletter form input[type="email"]{
+    height: 100%;
+    width: 100%;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+    padding: 0 2rem;
+}
+
+.newsletter form input[type="submit"]{
+    height: 100%;
+    width: 17rem;
+    font-size: 1.7rem;
+    color: var(--black);
+    background: var(--light-yellow);
+    cursor: pointer;
+}
+
+.newsletter form input[type="submit"]:hover{
+    background: var(--yellow);
+}
 /*------ Responsividade -----*/
 @media(max-width:991px){
 
@@ -464,6 +568,9 @@ section{
     .home img{
         margin-top: -30px;
     }
+
+    
+    
 }
 
 @media(max-width:450px){
@@ -474,4 +581,5 @@ section{
     .heading{
         font-size: 3rem;
     }
+    
 }
