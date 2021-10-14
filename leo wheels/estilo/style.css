@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --yellow: #f9d806;
-    --light-yellow: #ffee80;
-    --black: #130f40;
+    --yellow: rgb(0, 204, 255);;
+    --light-yellow: #8bebe6;
+    --black: #222222;
     --light-color: #665;
     --border: .1rem solid rgba(0,0,0,.1);
     --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
@@ -211,17 +211,23 @@ section{
     padding-top: 10rem;
     text-align: center;
     overflow-x: hidden;
+    background-image: url(../img/fundo.jpg);
 }
 
 .home h1{
     font-size: 7.5vw;
     text-transform: uppercase;
-    color: var(--black);
+    color: #fff;
+    
+}
+.home span{
+    color: rgb(0, 255, 200);
 }
 
 .home img{
     width: 100%;
     margin: 1rem 0;
+    margin-top: -110px;
 }
 
 .icons-container{
@@ -341,6 +347,18 @@ section{
     padding: 0 .5rem;
 }
 
+#dominus{
+    margin-top: 50px;
+}
+#venom{
+    margin-top: 35px;
+}
+#breakout{
+    margin-top: 50px;
+}
+#backfire{
+    margin-top: 18px;
+}
 .swiper-pagination-bullet-active{
     background: var(--yellow);
 }
@@ -405,6 +423,8 @@ section{
     section{
         padding: 2rem;
     }
+
+    
 }
 
 @media(max-width:768px){
@@ -439,6 +459,10 @@ section{
         display: block;
         margin: 2rem;
         font-size: 2rem;
+    }
+
+    .home img{
+        margin-top: -30px;
     }
 }
 
