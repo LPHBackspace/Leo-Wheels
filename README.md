@@ -1,5 +1,8 @@
 # Leo-Wheels
-Site desenvolvido com Css, Html e JavaScript
+Site desenvolvido com:
+- Css
+- Html
+- JavaScript
 
 ##
 
