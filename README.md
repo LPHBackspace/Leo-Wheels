@@ -1,8 +1,11 @@
-# Leo-Wheels
-Site desenvolvido com:
-- Css
-- Html
-- JavaScript
+# Eu Presidente
+Jogo desenvolvido no primeiro módulo do meu baixarelado em Engenharia de Software
+Tecnologias e metodologias utilizadas:
+- Godot;
+- Gdscript;
+- Github;
+- Scrum
+
 
 ##
 <a href="https://lph-backspace.itch.io/eupresidente2">Jogar</a>
